@@ -44,15 +44,33 @@
     
     </header>
 
-    <main>
 
 <!--CONTEUDO DO SITE DENTRO DO MAIN-->
 
-      <h1>Contato</h1>
+<main>
+  <h1>Contato</h1>
+  <form>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
 
-        <p>Entre em contato conosco pelo email: Vinharia.Agnello@gmail.com</p>
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
 
-    </main>
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+  
+  <h2>Informações de contato</h2>
+  <ul>
+    <li>Endereço: Av. Paulista, 1106 - 7º andar - Bela Vista, São Paulo - SP, 01311-000</li>
+    <li>Telefone: (11) 1234-5678</li>
+    <li>E-mail: vinheria.agnello@gmail.com</li>
+  </ul>
+</main>
+
+
 
 </body>
 </html>
